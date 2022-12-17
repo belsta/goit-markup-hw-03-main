@@ -45,8 +45,10 @@ address {
 
 /* Common styles */
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 h1,
@@ -65,11 +67,14 @@ margin: 0;
 .container-nav {
     display: flex;
     align-items: center;
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .header-menu {
-    width: 1170px;
-    margin: 0 auto;
+    width: 100%;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-list {
@@ -133,8 +138,8 @@ margin: 0;
     line-height: 1.142;
     letter-spacing: 0.02em;
 
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-link:hover {
@@ -167,30 +172,28 @@ margin: 0;
 
 /* Hero section */
 
-.container-hero {
-    width: 1170px;
-    margin: 0 auto;
-    display: block;
+.hero-section {
+    background-color: #2F303A;
+    width: 100%;
     text-align: center;
 }
 
-.hero-section {
-    background-color:#2F303A;
-    width: 100%;
-
-    margin-bottom: 94px;
+.container-hero {
+    display: block;
+    align-items: center;
+    
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
     color: var(--color-white);
     text-transform: uppercase;
-    text-align: center;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.363;
     letter-spacing: 0.06em;
 
-    padding: 200px 0 0 0;
     margin: 0 auto 30px;
 }
 
@@ -203,11 +206,6 @@ margin: 0;
     font-weight: 700;
     line-height: 1.875;
     letter-spacing: 0.06em;
-
-    padding: 10px 32px;
-    margin-bottom: 200px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .hero-button:hover {
@@ -220,16 +218,17 @@ margin: 0;
 
 /* Features section */
 
-/* .content-features-list {
+.content-features-list {
     list-style: none;
-    padding: 0 215px;
-} */
+    padding: 94px 0;
+}
 
 .container .features{
-    width: 1170px;
-    margin-top: 94;
-    margin-bottom: 94px;
+    width: 1200px;
+    padding-top: 94;
+    padding-bottom: 94px;
     display: flex;
+    align-items: center;
 }
 
 .features .item {
@@ -266,15 +265,17 @@ margin: 0;
 } */
 
 .container .services {
-    width: 1170px;
-    margin-top: 94px;
+    width: 1200px;
+    margin-bottom: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
+    align-items: center;
 }
 
 .services .item {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
-    margin-bottom: 94px;
 }
 
 .services .item:nth-child(3n) {
@@ -296,6 +297,9 @@ margin: 0;
 
 .team {
     background-color: #F5F4FA;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .list-team {
@@ -303,18 +307,21 @@ margin: 0;
     padding-left: 0;
     margin: 0;
     display: flex;
-}
+    }
 
 .container-team {
-    width: 1170px;
-    margin-top: 94px;
-    display: flex;
+    width: 1200px;
+    align-items: center;
+    
+    padding: 94px 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .team .item {
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
-    margin-bottom: 94px;
+    align-items: center;
     background-color: var(--color-white);
     border-radius: 0px 0px 4px 4px;
 }
@@ -330,12 +337,15 @@ margin: 0;
     text-align: center;
     letter-spacing: 0.03em;
     
-    padding-top: 94px;
     margin-bottom: 50px;
 }
 
 .content-img-team {
-    margin-bottom: 30px;
+    display: block;
+}
+
+.div-team {
+    padding: 30px 0;
 }
 
 .content-team-name {
@@ -355,8 +365,6 @@ margin: 0;
     line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;
-    
-    margin-bottom: 30px;
 }
 
 
@@ -371,6 +379,10 @@ margin: 0;
 
 a {
     text-decoration: none;
+}
+
+.a-margin {
+    margin-bottom: 20px;
 }
 
 .foot-address {
@@ -405,11 +417,15 @@ a {
 
 /* Portfolio page */
 
+.pf-list-container {
+    padding-top: 94px;
+    padding-bottom: 30px;
+}
+
 .pf-list {
     list-style: none;
 
     padding-left: 0;
-    margin-bottom: 56px;
     display: flex;
     justify-content: center;
 }
@@ -465,6 +481,11 @@ a {
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.div-pf-container {
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 
 .pf-container .flex {
