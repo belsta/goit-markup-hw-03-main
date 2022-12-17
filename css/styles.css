@@ -221,6 +221,8 @@ margin: 0;
 .content-features-list {
     list-style: none;
     padding: 94px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container .features{
@@ -228,7 +230,6 @@ margin: 0;
     padding-top: 94;
     padding-bottom: 94px;
     display: flex;
-    align-items: center;
 }
 
 .features .item {
@@ -259,10 +260,6 @@ margin: 0;
 
 
 /* Services section */
-
-/* .services {
-    padding: 0 0 94px 0;
-} */
 
 .container .services {
     width: 1200px;
@@ -486,6 +483,7 @@ a {
 .div-pf-container {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
+    margin-bottom: 94px;
 }
 
 .pf-container .flex {
