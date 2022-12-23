@@ -450,9 +450,10 @@ a {
 }
 
 .pf-list-container {
-    margin-bottom: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1200px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pf-list {
@@ -462,6 +463,7 @@ a {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 0px;
+    margin-bottom: 50px;
 
     display: flex;
     justify-content: center;
