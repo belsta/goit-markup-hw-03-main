@@ -311,7 +311,7 @@ margin: 0;
     background-color: #F5F4FA;
     align-items: center;
 
-    padding: 94px 15px;
+    padding: 94px 0px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -515,7 +515,7 @@ a {
 }
 
 .pf-container {
-    width: 1170px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
