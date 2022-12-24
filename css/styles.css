@@ -332,6 +332,7 @@ margin: 0;
 .container-team {
     width: 1200px;
     align-items: center;
+    padding: 0 15px;
     
     margin-left: auto;
     margin-right: auto;
@@ -528,7 +529,7 @@ a {
     border: 1px solid #EEEEEE;
 }
 
-.pf-container-flex {
+.pf-flex {
     list-style: none;
     margin-block-start: 0px;
     margin-block-end: 0px;
@@ -539,6 +540,7 @@ a {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .pf-container .item {
