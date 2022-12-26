@@ -173,6 +173,7 @@ margin: 0;
 /* Hero section */
 
 .hero-section {
+    background-image: url(/images/Untitled-1.png), url(/images/hero-img.jpg);
     background-color: #2F303A;
     width: 100%;
     text-align: center;
