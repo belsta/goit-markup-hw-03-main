@@ -26,10 +26,10 @@
     
             <ul class="header-list">
                 <li class="link">
-                    <a class="header-link" href="index.html">Студія</a>
+                    <a class="header-link current" href="index.html">Студія</a>
                 </li>
                 <li class="link">
-                    <a class="header-link current" href="portfolio.html">Портфоліо</a>
+                    <a class="header-link" href="portfolio.html">Портфоліо</a>
                 </li>
                 <li class="link">
                     <a class="header-link" href="">Контакти</a>
@@ -39,10 +39,16 @@
     
             <ul class="header-list-contacts">
                 <li class="link">
-                    <a class="header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="header-contact" href="mailto:info@devstudio.com">
+                        <svg width="16px" height="12px">
+                            <use href="./images/icons.svg#icon-envelope"></use>
+                        </svg>&nbsp; info@devstudio.com</a>
                 </li>
                 <li class="link">
-                    <a class="header-contact" href="tel: +380961111111">+38 096 111 11 11</a>
+                    <a class="header-contact" href="tel: +380961111111">
+                        <svg width="10px" height="16px">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>&nbsp; +38 096 111 11 11</a>
                 </li>
             </ul>
         </nav>
@@ -71,63 +77,63 @@
             </ul>
 
             <ul class="pf-flex">
-                <li class="item">
+                <li class="pf-item">
                     <img src="./images/pf1.jpg" alt="Технокряк" width="370" />
                     <div class="div-pf-container">
                     <h3 class="pf-header">Технокряк</h3>
                     <p class="pf-type">Веб-сайт</p>
                     </div>
                 </li>
-                <li class="item">
+                <li class="pf-item">
                     <img src="./images/pf2.jpg" alt="Постер New Orlean vs Golden Star" width="370" />
                     <div class="div-pf-container">
                     <h3 class="pf-header">Постер New Orlean vs Golden Star</h3>
                     <p class="pf-type">Дизайн</p>
                     </div>
                 </li>
-                <li class="item">
+                <li class="pf-item">
                     <img src="./images/pf3.jpg" alt="Ресторан Seafood" width="370" />
                     <div class="div-pf-container">
                     <h3 class="pf-header">Ресторан Seafood</h3>
                     <p class="pf-type">Додаток</p>
                     </div>
                 </li>
-                <li class="item">
+                <li class="pf-item">
                     <img src="./images/pf4.png" alt="Проєкт Prime" width="370" />
                     <div class="div-pf-container">
                     <h3 class="pf-header">Проєкт Prime</h3>
                     <p class="pf-type">Маркетинг</p>
                     </div>
                 </li>
-                <li class="item">
+                <li class="pf-item">
                     <img src="./images/pf5.png" alt="Проєкт Boxes" width="370" />
                     <div class="div-pf-container">
                     <h3 class="pf-header">Проєкт Boxes</h3>
                     <p class="pf-type">Додаток</p>
                     </div>
                 </li>
-                <li class="item">
+                <li class="pf-item">
                     <img src="./images/pf6.png" alt="Inspiration has no Borders" width="370" />
                     <div class="div-pf-container">
                     <h3 class="pf-header">Inspiration has no Borders</h3>
                     <p class="pf-type">Веб-сайт</p>
                     </div>
                 </li>
-                <li class="item">
+                <li class="pf-item">
                     <img src="./images/pf7.png" alt="Видання Limited Edition" width="370" />
                     <div class="div-pf-container">
                     <h3 class="pf-header">Видання Limited Edition</h3>
                     <p class="pf-type">Дизайн</p>
                     </div>
                 </li>
-                <li class="item">
+                <li class="pf-item">
                     <img src="./images/pf8.png" alt="Проєкт LAB" width="370" />
                     <div class="div-pf-container">
                     <h3 class="pf-header">Проєкт LAB</h3>
                     <p class="pf-type">Маркетинг</p>
                     </div>
                 </li>
-                <li class="item">
+                <li class="pf-item">
                     <img src="./images/pf9.png" alt="Growing Business" width="370" />
                     <div class="div-pf-container">
                     <h3 class="pf-header">Growing Business</h3>
@@ -140,25 +146,63 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="a-margin">
-                <a class="a-margin" href="index.html"><span class="logo-web">Web</span><span
-                        class="logo-f-studio">Studio</span></a>
+    
+        <div class="container flex-footer">
+            <div>
+                <div class="a-margin">
+                    <a class="a-margin" href="index.html"><span class="logo-web">Web</span><span
+                            class="logo-f-studio">Studio</span></a>
+                </div>
+                <address>
+                    <ul class="list">
+                        <li class="item">
+                            <a class="foot-address" href="https://goo.gl/maps/RWDcnRhZc3z8KW91A" target="_blank"
+                                rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
+                        </li>
+                        <li class="item">
+                            <a class="foot-address-transp" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="item">
+                            <a class="foot-address-transp" href="tel: +380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
             </div>
-            <address>
-                <ul class="list">
-                    <li class="item">
-                        <a class="foot-address" href="https://goo.gl/maps/RWDcnRhZc3z8KW91A" target="_blank"
-                            rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
+    
+    
+            <div class="footer2">
+                <h3 class="footer-join">ПРИЄДНУЙТЕСЬ</h3>
+                <ul class="footer-socials">
+                    <li class="footer-socials-item">
+                        <a class="socials-link" href="#">
+                            <svg width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="item">
-                        <a class="foot-address-transp" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <li class="team-socials-item">
+                        <a class="socials-link" href="#">
+                            <svg width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="item">
-                        <a class="foot-address-transp" href="tel: +380961111111">+38 096 111 11 11</a>
+                    <li class="team-socials-item">
+                        <a class="socials-link" href="#">
+                            <svg width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team-socials-item">
+                        <a class="socials-link" href="#">
+                            <svg width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
